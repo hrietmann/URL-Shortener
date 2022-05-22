@@ -24,10 +24,9 @@
 		1C0EC3A6283A6E4500A8E742 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC3A5283A6E4500A8E742 /* SafariView.swift */; };
 		1C0EC3A8283A748300A8E742 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC3A7283A748300A8E742 /* UIColor.swift */; };
 		1C0EC3AB283A7A8900A8E742 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC3A9283A7A8900A8E742 /* Model.xcdatamodeld */; };
-		1C0EC3BB283AAFB100A8E742 /* AppSecrets.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C0EC3BA283AAFB100A8E742 /* AppSecrets.json */; };
 		1C0EC3BD283AB02600A8E742 /* AppSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC3BC283AB02600A8E742 /* AppSecrets.swift */; };
 		1C104457283ABD4000953E37 /* ShortenURLFetcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C104456283ABD4000953E37 /* ShortenURLFetcherTests.swift */; };
-		1CB0B442283AB52100CE3C32 /* URL-Shortener-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CB0B441283AB52100CE3C32 /* URL-Shortener-Info.plist */; };
+		1CE91862283AD8410016BFAC /* AppSecrets.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CE91861283AD8270016BFAC /* AppSecrets.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,10 +62,9 @@
 		1C0EC3A5283A6E4500A8E742 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		1C0EC3A7283A748300A8E742 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		1C0EC3AA283A7A8900A8E742 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		1C0EC3BA283AAFB100A8E742 /* AppSecrets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AppSecrets.json; sourceTree = "<group>"; };
 		1C0EC3BC283AB02600A8E742 /* AppSecrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSecrets.swift; sourceTree = "<group>"; };
 		1C104456283ABD4000953E37 /* ShortenURLFetcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortenURLFetcherTests.swift; sourceTree = "<group>"; };
-		1CB0B441283AB52100CE3C32 /* URL-Shortener-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "URL-Shortener-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1CE91861283AD8270016BFAC /* AppSecrets.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AppSecrets.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +106,6 @@
 		1C0EC35F2837DB8E00A8E742 /* URL Shortener */ = {
 			isa = PBXGroup;
 			children = (
-				1CB0B441283AB52100CE3C32 /* URL-Shortener-Info.plist */,
 				1C0EC3602837DB8E00A8E742 /* URL_ShortenerApp.swift */,
 				1C0EC395283A293300A8E742 /* Localizable.strings */,
 				1C0EC3702837DF6600A8E742 /* Models */,
@@ -117,7 +114,7 @@
 				1C0EC3752837F0AB00A8E742 /* Utilities */,
 				1C0EC3642837DB9100A8E742 /* Assets.xcassets */,
 				1C0EC3A9283A7A8900A8E742 /* Model.xcdatamodeld */,
-				1C0EC3BA283AAFB100A8E742 /* AppSecrets.json */,
+				1CE91861283AD8270016BFAC /* AppSecrets.json */,
 				1C0EC3662837DB9100A8E742 /* Preview Content */,
 			);
 			path = "URL Shortener";
@@ -273,9 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C0EC3682837DB9100A8E742 /* Preview Assets.xcassets in Resources */,
-				1C0EC3BB283AAFB100A8E742 /* AppSecrets.json in Resources */,
+				1CE91862283AD8410016BFAC /* AppSecrets.json in Resources */,
 				1C0EC393283A293300A8E742 /* Localizable.strings in Resources */,
-				1CB0B442283AB52100CE3C32 /* URL-Shortener-Info.plist in Resources */,
 				1C0EC3652837DB9100A8E742 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,7 +468,6 @@
 				DEVELOPMENT_TEAM = MEBSQ9RYLY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "URL-Shortener-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -502,7 +497,6 @@
 				DEVELOPMENT_TEAM = MEBSQ9RYLY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "URL-Shortener-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
