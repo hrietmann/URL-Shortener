@@ -26,7 +26,7 @@
 		1C0EC3AB283A7A8900A8E742 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC3A9283A7A8900A8E742 /* Model.xcdatamodeld */; };
 		1C0EC3BD283AB02600A8E742 /* AppSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC3BC283AB02600A8E742 /* AppSecrets.swift */; };
 		1C104457283ABD4000953E37 /* ShortenURLFetcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C104456283ABD4000953E37 /* ShortenURLFetcherTests.swift */; };
-		1CE91862283AD8410016BFAC /* AppSecrets.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CE91861283AD8270016BFAC /* AppSecrets.json */; };
+		1CE91864283AD8FF0016BFAC /* AppSecrets.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CE91863283AD8FF0016BFAC /* AppSecrets.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +64,7 @@
 		1C0EC3AA283A7A8900A8E742 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		1C0EC3BC283AB02600A8E742 /* AppSecrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSecrets.swift; sourceTree = "<group>"; };
 		1C104456283ABD4000953E37 /* ShortenURLFetcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortenURLFetcherTests.swift; sourceTree = "<group>"; };
-		1CE91861283AD8270016BFAC /* AppSecrets.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AppSecrets.json; sourceTree = "<group>"; };
+		1CE91863283AD8FF0016BFAC /* AppSecrets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AppSecrets.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 				1C0EC3752837F0AB00A8E742 /* Utilities */,
 				1C0EC3642837DB9100A8E742 /* Assets.xcassets */,
 				1C0EC3A9283A7A8900A8E742 /* Model.xcdatamodeld */,
-				1CE91861283AD8270016BFAC /* AppSecrets.json */,
+				1CE91863283AD8FF0016BFAC /* AppSecrets.json */,
 				1C0EC3662837DB9100A8E742 /* Preview Content */,
 			);
 			path = "URL Shortener";
@@ -270,7 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C0EC3682837DB9100A8E742 /* Preview Assets.xcassets in Resources */,
-				1CE91862283AD8410016BFAC /* AppSecrets.json in Resources */,
+				1CE91864283AD8FF0016BFAC /* AppSecrets.json in Resources */,
 				1C0EC393283A293300A8E742 /* Localizable.strings in Resources */,
 				1C0EC3652837DB9100A8E742 /* Assets.xcassets in Resources */,
 			);
