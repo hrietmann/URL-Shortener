@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  URL Shortener
+
+  Created by Hans Rietmann on 22/05/2022.
+  
+*/
+
+
+// MARK: - UI -
+
+// MARK: ShortenLinksView
+"ShortenLinksView.textfield.placeholder" = "Entrez le lien pour raccourcir";
+
+
+
+// MARK: - ACCESSIBILITY -
+
+// MARK: ShortenLinkRow
+"ShortenLinkRow.Accessibility.Button" = "URL raccourcie %@ créée à partir de l'URL originale de %@ le %@";
+
+
+
+// MARK: - ERRORS -
+
+// MARK: AppError
+"AppError.genericError.title" = "Erreur";
+"AppError.genericError.message" = "Quelque chose s'est mal passé : %@";
+"AppError.invalidOrginalURLLink.title" = "URL non valide";
+"AppError.invalidOrginalURLLink.message" = "Impossible de reconnaître le lien donné comme URL. Veuillez vérifier le lien entré. Lien donné : '%@'";
+"AppError.badlyFormattedShortenURL.title" = "Erreur interne";
+"AppError.badlyFormattedShortenURL.message" = "L'URL abrégée renvoyée par nos services d'arrière-plan a renvoyé une URL mal formatée '%@'. Nous faisons notre maximum pour résoudre le problème. Veuillez réessayer plus tard.";
+"AppError.noShortenURLGiven.title" = "Erreur interne";
+"AppError.noShortenURLGiven.message" = "Nos services n'ont renvoyé aucune URL raccourcie pour l'URL que vous avez saisie. Nous sommes impatients de résoudre ce problème le plus rapidement possible. Veuillez réessayer plus tard.";
+"AppError.shortenURLProviderRemovedFromMemory.title" = "Problème de mémoire";
+"AppError.shortenURLProviderRemovedFromMemory.message" = "La tâche en cours a été annulée.";
+"AppError.badResponseReceived.title" = "Erreur de demande";
+"AppError.badResponseReceived.message" = "Nos services ont renvoyé une erreur avec le code %@. Nous travaillons activement à le réparer. Veuillez réessayer plus tard.";
+"AppError.linkAlreadyShortened.title" = "Existe déjà";
+"AppError.linkAlreadyShortened.message" = "Cette URL est déjà raccourcie à '%@' par rapport à l'%@'original. Essayez une autre URL à raccourcir.";

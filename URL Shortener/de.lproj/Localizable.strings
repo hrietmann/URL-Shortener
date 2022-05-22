@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  URL Shortener
+
+  Created by Hans Rietmann on 22/05/2022.
+  
+*/
+
+
+// MARK: - UI -
+
+// MARK: ShortenLinksView
+"ShortenLinksView.textfield.placeholder" = "Geben Sie den Link ein, um zu verkürzen";
+
+
+
+// MARK: - ACCESSIBILITY -
+
+// MARK: ShortenLinkRow
+"ShortenLinkRow.Accessibility.Button" = "Verkürzte URL %@ erstellt aus der ursprünglichen URL von %@ unter %@";
+
+
+
+// MARK: - ERRORS -
+
+// MARK: AppError
+"AppError.genericError.title" = "Fehler";
+"AppError.genericError.message" = "Something went wrong: %@";
+"AppError.invalidOrginalURLLink.title" = "Ungültige URL";
+"AppError.invalidOrginalURLLink.message" = "Der als URL angegebene Link kann nicht erkannt werden. Bitte überprüfen Sie den eingegebenen Link. Link angegeben: '%@'";
+"AppError.badlyFormattedShortenURL.title" = "Interner Fehler";
+"AppError.badlyFormattedShortenURL.message" = "Die von unseren Backend-Diensten zurückgegebene verkürzte URL gab eine schlecht formatierte URL zurück (zurückgegeben '%@'). Wir freuen uns darauf, das Problem zu beheben. Bitte versuchen Sie es später noch einmal.";
+"AppError.noShortenURLGiven.title" = "Interner Fehler";
+"AppError.noShortenURLGiven.message" = "Unsere Dienste haben keine verkürzte URL für die von Ihnen eingegebene URL zurückgegeben. Wir freuen uns darauf, dieses Problem so schnell wie möglich zu beheben. Bitte versuchen Sie es später noch einmal.";
+"AppError.shortenURLProviderRemovedFromMemory.title" = "Speicherproblem";
+"AppError.shortenURLProviderRemovedFromMemory.message" = "Die laufende Aufgabe wurde abgebrochen.";
+"AppError.badResponseReceived.title" = "Fehler anfordern";
+"AppError.badResponseReceived.message" = "Unsere Dienste haben einen Fehler mit dem Code %@ zurückgegeben. Wir arbeiten aktiv daran, es zu beheben. Bitte versuchen Sie es später noch einmal.";
+"AppError.linkAlreadyShortened.title" = "Existiert bereits";
+"AppError.linkAlreadyShortened.message" = "Diese URL ist bereits vom ursprünglichen '%@' auf '%@' gekürzt. Versuchen Sie es mit einer anderen URL, um sie zu verkürzen.";

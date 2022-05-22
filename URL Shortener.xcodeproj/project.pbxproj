@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C0EC3612837DB8E00A8E742 /* URL_ShortenerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC3602837DB8E00A8E742 /* URL_ShortenerApp.swift */; };
+		1C0EC3632837DB8E00A8E742 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC3622837DB8E00A8E742 /* ContentView.swift */; };
+		1C0EC3652837DB9100A8E742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0EC3642837DB9100A8E742 /* Assets.xcassets */; };
+		1C0EC3682837DB9100A8E742 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0EC3672837DB9100A8E742 /* Preview Assets.xcassets */; };
+		1C0EC3772837F0C300A8E742 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC3762837F0C300A8E742 /* Color.swift */; };
+		1C0EC38A2837F4E800A8E742 /* ShortenLinksViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC3892837F4E800A8E742 /* ShortenLinksViewModelTests.swift */; };
+		1C0EC38C2839755400A8E742 /* ShortenURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC38B2839755400A8E742 /* ShortenURL.swift */; };
+		1C0EC38E2839757E00A8E742 /* TaskStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC38D2839757E00A8E742 /* TaskStatus.swift */; };
+		1C0EC390283A21E600A8E742 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC38F283A21E600A8E742 /* AppError.swift */; };
+		1C0EC393283A293300A8E742 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C0EC395283A293300A8E742 /* Localizable.strings */; };
+		1C0EC39A283A29D000A8E742 /* ShortenLinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC399283A29D000A8E742 /* ShortenLinksView.swift */; };
+		1C0EC39C283A29EA00A8E742 /* ShortenLinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC39B283A29EA00A8E742 /* ShortenLinkRow.swift */; };
+		1C0EC39E283A2D4500A8E742 /* ShortenLinksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC39D283A2D4500A8E742 /* ShortenLinksViewModel.swift */; };
+		1C0EC3A0283A2DEA00A8E742 /* ShortenURLFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC39F283A2DEA00A8E742 /* ShortenURLFetcher.swift */; };
+		1C0EC3A6283A6E4500A8E742 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC3A5283A6E4500A8E742 /* SafariView.swift */; };
+		1C0EC3A8283A748300A8E742 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC3A7283A748300A8E742 /* UIColor.swift */; };
+		1C0EC3AB283A7A8900A8E742 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC3A9283A7A8900A8E742 /* Model.xcdatamodeld */; };
+		1C0EC3BB283AAFB100A8E742 /* AppSecrets.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C0EC3BA283AAFB100A8E742 /* AppSecrets.json */; };
+		1C0EC3BD283AB02600A8E742 /* AppSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC3BC283AB02600A8E742 /* AppSecrets.swift */; };
+		1C104457283ABD4000953E37 /* ShortenURLFetcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C104456283ABD4000953E37 /* ShortenURLFetcherTests.swift */; };
+		1CB0B442283AB52100CE3C32 /* URL-Shortener-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CB0B441283AB52100CE3C32 /* URL-Shortener-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C0EC3842837F4B000A8E742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C0EC3552837DB8E00A8E742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C0EC35C2837DB8E00A8E742;
+			remoteInfo = "URL Shortener";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C0EC35D2837DB8E00A8E742 /* URL Shortener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "URL Shortener.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C0EC3602837DB8E00A8E742 /* URL_ShortenerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL_ShortenerApp.swift; sourceTree = "<group>"; };
+		1C0EC3622837DB8E00A8E742 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1C0EC3642837DB9100A8E742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C0EC3672837DB9100A8E742 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C0EC3762837F0C300A8E742 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		1C0EC3802837F4B000A8E742 /* URL Shortener UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "URL Shortener UnitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C0EC3892837F4E800A8E742 /* ShortenLinksViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortenLinksViewModelTests.swift; sourceTree = "<group>"; };
+		1C0EC38B2839755400A8E742 /* ShortenURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortenURL.swift; sourceTree = "<group>"; };
+		1C0EC38D2839757E00A8E742 /* TaskStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStatus.swift; sourceTree = "<group>"; };
+		1C0EC38F283A21E600A8E742 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		1C0EC394283A293300A8E742 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1C0EC396283A297D00A8E742 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1C0EC397283A298700A8E742 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1C0EC398283A298F00A8E742 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1C0EC399283A29D000A8E742 /* ShortenLinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortenLinksView.swift; sourceTree = "<group>"; };
+		1C0EC39B283A29EA00A8E742 /* ShortenLinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortenLinkRow.swift; sourceTree = "<group>"; };
+		1C0EC39D283A2D4500A8E742 /* ShortenLinksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortenLinksViewModel.swift; sourceTree = "<group>"; };
+		1C0EC39F283A2DEA00A8E742 /* ShortenURLFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortenURLFetcher.swift; sourceTree = "<group>"; };
+		1C0EC3A5283A6E4500A8E742 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		1C0EC3A7283A748300A8E742 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		1C0EC3AA283A7A8900A8E742 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		1C0EC3BA283AAFB100A8E742 /* AppSecrets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AppSecrets.json; sourceTree = "<group>"; };
+		1C0EC3BC283AB02600A8E742 /* AppSecrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSecrets.swift; sourceTree = "<group>"; };
+		1C104456283ABD4000953E37 /* ShortenURLFetcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortenURLFetcherTests.swift; sourceTree = "<group>"; };
+		1CB0B441283AB52100CE3C32 /* URL-Shortener-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "URL-Shortener-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C0EC35A2837DB8E00A8E742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0EC37D2837F4B000A8E742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C0EC3542837DB8E00A8E742 = {
+			isa = PBXGroup;
+			children = (
+				1C0EC35F2837DB8E00A8E742 /* URL Shortener */,
+				1C0EC3812837F4B000A8E742 /* URL Shortener UnitTests */,
+				1C0EC35E2837DB8E00A8E742 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C0EC35E2837DB8E00A8E742 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C0EC35D2837DB8E00A8E742 /* URL Shortener.app */,
+				1C0EC3802837F4B000A8E742 /* URL Shortener UnitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C0EC35F2837DB8E00A8E742 /* URL Shortener */ = {
+			isa = PBXGroup;
+			children = (
+				1CB0B441283AB52100CE3C32 /* URL-Shortener-Info.plist */,
+				1C0EC3602837DB8E00A8E742 /* URL_ShortenerApp.swift */,
+				1C0EC395283A293300A8E742 /* Localizable.strings */,
+				1C0EC3702837DF6600A8E742 /* Models */,
+				1C0EC3722837DF7900A8E742 /* Views */,
+				1C0EC3712837DF7000A8E742 /* ViewModels */,
+				1C0EC3752837F0AB00A8E742 /* Utilities */,
+				1C0EC3642837DB9100A8E742 /* Assets.xcassets */,
+				1C0EC3A9283A7A8900A8E742 /* Model.xcdatamodeld */,
+				1C0EC3BA283AAFB100A8E742 /* AppSecrets.json */,
+				1C0EC3662837DB9100A8E742 /* Preview Content */,
+			);
+			path = "URL Shortener";
+			sourceTree = "<group>";
+		};
+		1C0EC3662837DB9100A8E742 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1C0EC3672837DB9100A8E742 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1C0EC3702837DF6600A8E742 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C0EC38B2839755400A8E742 /* ShortenURL.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C0EC3712837DF7000A8E742 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1C0EC39D283A2D4500A8E742 /* ShortenLinksViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1C0EC3722837DF7900A8E742 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C0EC3622837DB8E00A8E742 /* ContentView.swift */,
+				1C0EC399283A29D000A8E742 /* ShortenLinksView.swift */,
+				1C0EC39B283A29EA00A8E742 /* ShortenLinkRow.swift */,
+				1C0EC3A5283A6E4500A8E742 /* SafariView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1C0EC3752837F0AB00A8E742 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1C0EC3762837F0C300A8E742 /* Color.swift */,
+				1C0EC3A7283A748300A8E742 /* UIColor.swift */,
+				1C0EC38D2839757E00A8E742 /* TaskStatus.swift */,
+				1C0EC38F283A21E600A8E742 /* AppError.swift */,
+				1C0EC39F283A2DEA00A8E742 /* ShortenURLFetcher.swift */,
+				1C0EC3BC283AB02600A8E742 /* AppSecrets.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1C0EC3812837F4B000A8E742 /* URL Shortener UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C0EC3892837F4E800A8E742 /* ShortenLinksViewModelTests.swift */,
+				1C104455283ABD2000953E37 /* Dummies */,
+			);
+			path = "URL Shortener UnitTests";
+			sourceTree = "<group>";
+		};
+		1C104455283ABD2000953E37 /* Dummies */ = {
+			isa = PBXGroup;
+			children = (
+				1C104456283ABD4000953E37 /* ShortenURLFetcherTests.swift */,
+			);
+			path = Dummies;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C0EC35C2837DB8E00A8E742 /* URL Shortener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C0EC36B2837DB9100A8E742 /* Build configuration list for PBXNativeTarget "URL Shortener" */;
+			buildPhases = (
+				1C0EC3592837DB8E00A8E742 /* Sources */,
+				1C0EC35A2837DB8E00A8E742 /* Frameworks */,
+				1C0EC35B2837DB8E00A8E742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "URL Shortener";
+			productName = "URL Shortener";
+			productReference = 1C0EC35D2837DB8E00A8E742 /* URL Shortener.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C0EC37F2837F4B000A8E742 /* URL Shortener UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C0EC3862837F4B000A8E742 /* Build configuration list for PBXNativeTarget "URL Shortener UnitTests" */;
+			buildPhases = (
+				1C0EC37C2837F4B000A8E742 /* Sources */,
+				1C0EC37D2837F4B000A8E742 /* Frameworks */,
+				1C0EC37E2837F4B000A8E742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C0EC3852837F4B000A8E742 /* PBXTargetDependency */,
+			);
+			name = "URL Shortener UnitTests";
+			productName = "URL Shortener UnitTests";
+			productReference = 1C0EC3802837F4B000A8E742 /* URL Shortener UnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C0EC3552837DB8E00A8E742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1C0EC35C2837DB8E00A8E742 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					1C0EC37F2837F4B000A8E742 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 1C0EC35C2837DB8E00A8E742;
+					};
+				};
+			};
+			buildConfigurationList = 1C0EC3582837DB8E00A8E742 /* Build configuration list for PBXProject "URL Shortener" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+				de,
+				it,
+			);
+			mainGroup = 1C0EC3542837DB8E00A8E742;
+			productRefGroup = 1C0EC35E2837DB8E00A8E742 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C0EC35C2837DB8E00A8E742 /* URL Shortener */,
+				1C0EC37F2837F4B000A8E742 /* URL Shortener UnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C0EC35B2837DB8E00A8E742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0EC3682837DB9100A8E742 /* Preview Assets.xcassets in Resources */,
+				1C0EC3BB283AAFB100A8E742 /* AppSecrets.json in Resources */,
+				1C0EC393283A293300A8E742 /* Localizable.strings in Resources */,
+				1CB0B442283AB52100CE3C32 /* URL-Shortener-Info.plist in Resources */,
+				1C0EC3652837DB9100A8E742 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0EC37E2837F4B000A8E742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C0EC3592837DB8E00A8E742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0EC39A283A29D000A8E742 /* ShortenLinksView.swift in Sources */,
+				1C0EC3A8283A748300A8E742 /* UIColor.swift in Sources */,
+				1C0EC3A6283A6E4500A8E742 /* SafariView.swift in Sources */,
+				1C0EC39C283A29EA00A8E742 /* ShortenLinkRow.swift in Sources */,
+				1C0EC3632837DB8E00A8E742 /* ContentView.swift in Sources */,
+				1C0EC390283A21E600A8E742 /* AppError.swift in Sources */,
+				1C0EC38E2839757E00A8E742 /* TaskStatus.swift in Sources */,
+				1C0EC3A0283A2DEA00A8E742 /* ShortenURLFetcher.swift in Sources */,
+				1C0EC3772837F0C300A8E742 /* Color.swift in Sources */,
+				1C0EC38C2839755400A8E742 /* ShortenURL.swift in Sources */,
+				1C0EC39E283A2D4500A8E742 /* ShortenLinksViewModel.swift in Sources */,
+				1C0EC3BD283AB02600A8E742 /* AppSecrets.swift in Sources */,
+				1C0EC3AB283A7A8900A8E742 /* Model.xcdatamodeld in Sources */,
+				1C0EC3612837DB8E00A8E742 /* URL_ShortenerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0EC37C2837F4B000A8E742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0EC38A2837F4E800A8E742 /* ShortenLinksViewModelTests.swift in Sources */,
+				1C104457283ABD4000953E37 /* ShortenURLFetcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C0EC3852837F4B000A8E742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C0EC35C2837DB8E00A8E742 /* URL Shortener */;
+			targetProxy = 1C0EC3842837F4B000A8E742 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C0EC395283A293300A8E742 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C0EC394283A293300A8E742 /* en */,
+				1C0EC396283A297D00A8E742 /* fr */,
+				1C0EC397283A298700A8E742 /* de */,
+				1C0EC398283A298F00A8E742 /* it */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C0EC3692837DB9100A8E742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C0EC36A2837DB9100A8E742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C0EC36C2837DB9100A8E742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"URL Shortener/Preview Content\"";
+				DEVELOPMENT_TEAM = MEBSQ9RYLY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "URL-Shortener-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hansrietmann.URL-Shortener";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C0EC36D2837DB9100A8E742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"URL Shortener/Preview Content\"";
+				DEVELOPMENT_TEAM = MEBSQ9RYLY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "URL-Shortener-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hansrietmann.URL-Shortener";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1C0EC3872837F4B000A8E742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MEBSQ9RYLY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hansrietmann.URL-Shortener-UnitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URL Shortener.app/URL Shortener";
+			};
+			name = Debug;
+		};
+		1C0EC3882837F4B000A8E742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MEBSQ9RYLY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hansrietmann.URL-Shortener-UnitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URL Shortener.app/URL Shortener";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C0EC3582837DB8E00A8E742 /* Build configuration list for PBXProject "URL Shortener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C0EC3692837DB9100A8E742 /* Debug */,
+				1C0EC36A2837DB9100A8E742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C0EC36B2837DB9100A8E742 /* Build configuration list for PBXNativeTarget "URL Shortener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C0EC36C2837DB9100A8E742 /* Debug */,
+				1C0EC36D2837DB9100A8E742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C0EC3862837F4B000A8E742 /* Build configuration list for PBXNativeTarget "URL Shortener UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C0EC3872837F4B000A8E742 /* Debug */,
+				1C0EC3882837F4B000A8E742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1C0EC3A9283A7A8900A8E742 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1C0EC3AA283A7A8900A8E742 /* Model.xcdatamodel */,
+			);
+			currentVersion = 1C0EC3AA283A7A8900A8E742 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1C0EC3552837DB8E00A8E742 /* Project object */;
+}

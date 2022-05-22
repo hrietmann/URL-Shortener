@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  URL Shortener
+
+  Created by Hans Rietmann on 22/05/2022.
+  
+*/
+
+
+// MARK: - UI -
+
+// MARK: ShortenLinksView
+"ShortenLinksView.textfield.placeholder" = "Enter the link to shorten";
+
+
+
+// MARK: - ACCESSIBILITY -
+
+// MARK: ShortenLinkRow
+"ShortenLinkRow.Accessibility.Button" = "Shortened url %@ created from the original url of %@ at %@";
+
+
+
+// MARK: - ERRORS -
+
+// MARK: AppError
+"AppError.genericError.title" = "Error";
+"AppError.genericError.message" = "Something went wrong: %@";
+"AppError.invalidOrginalURLLink.title" = "Invalid URL";
+"AppError.invalidOrginalURLLink.message" = "Unable to recognize the link given as a URL. Please verify the link entered. Link given: '%@'";
+"AppError.badlyFormattedShortenURL.title" = "Internal error";
+"AppError.badlyFormattedShortenURL.message" = "The shorten URL returned from our backend services returned a badly formated URL (returned '%@'). We are looking forward to fix the issue. Please try again later.";
+"AppError.noShortenURLGiven.title" = "Internal error";
+"AppError.noShortenURLGiven.message" = "Our services did not returned any shorten URL for the URL you've entered. We are looking forward to fix this issue as quickly as possible. Please retry later.";
+"AppError.shortenURLProviderRemovedFromMemory.title" = "Memory issue";
+"AppError.shortenURLProviderRemovedFromMemory.message" = "The ongoing task has been canceled.";
+"AppError.badResponseReceived.title" = "Request error";
+"AppError.badResponseReceived.message" = "Our services returned an error with code %@. We are actively working on fixing it. Please try again later.";
+"AppError.linkAlreadyShortened.title" = "Already exists";
+"AppError.linkAlreadyShortened.message" = "This url is already shortened to '%@' from the original '%@'. Try another URL to shorten.";
